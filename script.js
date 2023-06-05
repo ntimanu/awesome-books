@@ -17,9 +17,11 @@ form.addEventListener('submit', (e) =>{
     addNewdata(title.value, author.value);
 }) 
 
+
+
 function createBooks(arr) {
     let book = '';
-    for (let i=0; i < arr.lenght; i+=1) {
+    for (let i=0; i < arr.length; i+=1) {
         book += `
             <p>${arr[i].title}</p>
             <p>${arr[i].author}</p>
@@ -47,6 +49,12 @@ function addNewdata(bookTitle, bookAuthor) {
     updateData();
     showBook();
 }
+
+const submitBtn = document.querySelector('.add-btn');
+submitBtn.addEventListener('click', () =>{
+    createBooks();
+    showBook();
+})
 
 function removeBook(i) {
     storedData.splice(i, 1);
