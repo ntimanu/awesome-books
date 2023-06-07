@@ -45,7 +45,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   addNewdata(title.value, author.value);
 });
-
+// eslint-disable-next-line no-unused-vars
 function removeBook(i) {
   storedData.splice(i, 1);
   updateData();
