@@ -4,6 +4,7 @@
   list-style: none;
   color: black;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -14,15 +15,20 @@
 }
 
 .contact {
-    display: none;
+  display: none;
 }
 
-.book-list{
+.book-list {
   display: none;
 }
 
 .add-book {
   display: none;
+}
+
+#contact {
+  width: 100%;
+  margin: 10px auto;
 }
 
 .contact:target {
@@ -115,11 +121,6 @@ hr {
   padding: 2px 15px;
 }
 
-.contact {
-  width: 100%;
-  margin: 10px auto;
-}
-
 .contact-info {
   display: grid;
   place-items: center;
@@ -128,7 +129,6 @@ hr {
 
 .contact-info li {
   margin-bottom: 15px;
-  
 }
 
 .footer {
