@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  text-align: center;
+}
+
+span {
+  color: gray;
+}
+
+.btn-container {
+  width: 160px;
+}
+
+.book-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid gray;
+}
+
+.book-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.book-container .book-element:nth-of-type(odd) {
+  background-color: darkgray;
+}
+
+.remove-btn {
+  padding: 2px 20px;
+}
+
+
+hr {
+  width: 30%;
+  margin: 50px auto 10px;
+}
+
+.btn {
+  padding: 2px 15px;
+}

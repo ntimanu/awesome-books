@@ -5,31 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesom books store</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Awesome Book</h1>
-    <div class="container"></div>
+    <h1>Awesome <span>Book</span></h1>
+    <div class="book-container" id="book-container"></div>
     <hr />
     <h2>Add new Book</h2>
-    <form id="form">
-      <input
-        type="text"
-        name="title"
-        placeholder="Title"
-        class="title"
-        required
-      /><br />
-      <input
-        type="text"
-        name="author"
-        placeholder="Author"
-        class="author"
-        required
-      /><br />
-      <button type="submit" class="add-btn">Add</button><br />
-    </form>
+    <section class="add-book" id="add-book">
+      <form method="post" class="form" id="form" action="/">
+          <input type="text" required placeholder="title" name="title" id="title" /><br><br>
+          <input type="text" required placeholder="author" name="author" id="author" /><br><br>
+          <button class="btn" type="submit">add</button>
+      </form>
+    </section>
 
-    <!-- <script src="script.js"></script> -->
-    <script src="class.js"></script>
+    <script src="classes.js"></script>
   </body>
 </html>
