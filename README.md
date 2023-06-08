@@ -40,7 +40,7 @@
 -displays books dynamically from javascript.
 
 <details>
-  <summary>Tech stack</summary>
+  <summary>Tech stack</summary><a name="tech-stack"></a>
   <ul>
     <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
@@ -74,15 +74,6 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:<br>
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Othniel2471/awesome-books.git
-```
---->
 
 ### Install
  To Install this project, follow the steps below:
@@ -159,7 +150,7 @@ To run the project:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author - OMAIDU OTHNIEL**
+👤 **Author - ADEBAYO ADEDOYIN**
 
 
 - GitHub: (https://github.com/shabiblac)
