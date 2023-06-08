@@ -169,7 +169,7 @@ To run the project:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author - OMAIDU OTHNIEL**
+👤 **Author - ADEBAYO ADEDOYIN**
 
 
 - GitHub: (https://github.com/shabiblac)
