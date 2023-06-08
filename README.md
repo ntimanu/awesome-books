@@ -48,7 +48,6 @@ The project is built using the following technologies:
 
 - **Frontend**:
   - JavaScript
-  - React.js
   - CSS
   - HTML
 
