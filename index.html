@@ -8,17 +8,50 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Awesome <span>Book</span></h1>
-    <div class="book-container" id="book-container"></div>
-    <hr />
-    <h2>Add new Book</h2>
+    <header class="header">
+      <div class="logo">
+        <a href="/">Awesome <span>Book</span></a>
+      </div>
+      <nav>
+        <ul class="list">
+          <li class="list-item"><a href="#book-list">List</a></li>
+          <li class="list-item"><a href="#add-book">Add new</a></li>
+          <li class="list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div><p id="date"></p></div>
+      <section class="book-list" id="book-list">
+        <h1 class="center">All Awesome Books</h1>
+        <div class="book-container" id="book-container"></div>
+        <hr />
+      </section>
     <section class="add-book" id="add-book">
       <form method="post" class="form" id="form" action="/">
-          <input type="text" required placeholder="title" name="title" id="title" /><br><br>
-          <input type="text" required placeholder="author" name="author" id="author" /><br><br>
-          <button class="btn" type="submit">add</button>
+        <h2>Add new Book</h2>
+        <input type="text" required placeholder="Title" name="title" id="title" /><br><br>
+        <input type="text" required placeholder="Author" name="author" id="author" /><br><br>
+        <button class="btn" type="submit">add</button>
       </form>
     </section>
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <h1>Contact information</h1>
+        <div>
+          <p>Do you have any questions or you just to say "Hello"?</p>
+                <h2>You ca reach out to us!</h2>
+                <ul>
+                    <li>Our e-mail mail@mail.com</li>
+                    <li>Our phone number 004586534422</li>
+                    <li>Our address streetname 22,84503 City,Country</li>
+                </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Copyright &copy;2023 awesome.books.studio</p>
+  </footer>
 
     <script src="classes.js"></script>
   </body>
