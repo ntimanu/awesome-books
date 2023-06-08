@@ -43,9 +43,6 @@
 The project is built using the following technologies:
 
 - **Frontend**:
-  - JavaScript
-  - CSS
-  - HTML
   <ul>
     <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
