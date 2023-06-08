@@ -112,13 +112,11 @@ npm init -y
    ```
    _how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
 2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
+3. Run
    ```
    npx hint .
    ```
-5. Fix validation errors.
+4. Fix validation errors.
 
 ### [Stylelint](https://stylelint.io/)
 
