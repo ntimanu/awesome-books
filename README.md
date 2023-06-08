@@ -42,6 +42,16 @@
   </ul>
 </details>
 
+### Tech Stack <a name="tech-stack"></a>
+
+The project is built using the following technologies:
+
+- **Frontend**:
+  - JavaScript
+  - React.js
+  - CSS
+  - HTML
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
