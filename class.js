@@ -7,15 +7,19 @@ if (localStorage.getItem('Added books') == null) {
   
 const storedData = JSON.parse(localStorage.getItem('Added books'));
   
-function updateData() {
-    localStorage.setItem('Added books', JSON.stringify(storedData));
-  }
+
 
 // CLASS
 class Books {
   constructor(title, author) {
     this.title = title;
     this.author = author;
+    this.data = [];
+    this.showBook();
+  }
+
+  updateData(bookData) {
+    localStorage.setItem('Added books', JSON.stringify(bookData));
   }
 
 // CREATE BOOKS
@@ -35,7 +39,7 @@ class Books {
     const bookList = document.querySelector('.container');
     bookList.innerHTML = `
             <ul class="book-list">
-            ${Books.createBooks(storedData)}
+            ${this.createBooks(storedData)}
             </ul>
         `;
   }
@@ -45,26 +49,31 @@ class Books {
       title: bookTitle,
       author: bookAuthor,
     };
-    Books.storedData.push(Book);
-    Books.updateData();
-    Books.showBook();
+    this.data.push(Book);
+    this.updateData(this.data);
+    this.showBook();
   }
 
   // eslint-disable-next-line no-unused-vars
   removeBook(i) {
-    Books.storedData.splice(i, 1);
-    Books.updateData();
-    Books.showBook();
+    this.storedData.splice(i, 1);
+    this.updateData();
+    this.showBook();
   }
   submit () {
-    form.addEventListener('submit', (e) => {
-        const title = document.querySelector('.title');
-        const author = document.querySelector('.author');
-        e.preventDefault();
-        Books.addNewdata(title.value, author.value);
-      });
+    const title = document.querySelector('.title');
+    const author = document.querySelector('.author');
+    this.addNewdata(title.value, author.value);
+    this.createBooks(this.data);
+    
   }
 }
+const newBook = new Books();
+form.addEventListener('submit', (e) => {
+  
+  e.preventDefault();
+  newBook.submit();
+});
 // window.onload = Books.showBook();
 
 
