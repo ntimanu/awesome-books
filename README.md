@@ -33,21 +33,20 @@
 **Awesome books** This is a simple single app built with html,css and javascript, it eneables users to add books and delete books of their choice.
 
 ## 🛠 Built With <a name="built-with"></a>
+
+### Key Features <a name="key-features"></a>
+-add books
+-remove books
+-displays books dynamically from javascript.
+
 <details>
-  <summary>Client</summary>
+  <summary>Tech stack</summary>
   <ul>
     <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
     <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
--add books
--remove books
--displays books dynamically from javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,13 +164,7 @@ To run the project:
 
 - GitHub: (https://github.com/shabiblac)
 - Twitter: (https://twitter.com/@shabi_blacc)
-- LinkedIn: ( https://www.linkedin.com/in/shabi-adebayo-019186187/)
-
-👤 **Author - MARVIN OTIENO**
-
-- GitHub: (https://github.com/ntimanu)
-- Twitter: (https://twitter.com/ntimanu)
-- LinkedIn: (https://www.linkedin.com/in/ntimanu-05ba83263/)  
+- LinkedIn: ( https://www.linkedin.com/in/shabi-adebayo-019186187/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
