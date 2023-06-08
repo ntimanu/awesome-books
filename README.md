@@ -40,13 +40,16 @@
 -displays books dynamically from javascript.
 
 ### Tech stack <a name="tech-stack"></a>
-<details>
+The project is built using the following technologies:
+
+- **Frontend**:
+  - JavaScript
+  - CSS
+  - HTML
   <ul>
     <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
     <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
-  </ul>
-</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +194,7 @@ If you like this project, kindly leave a comment below and share it with someone
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/)(LICENSE).
+This project is [MIT](LICENSE).
 
 
 
