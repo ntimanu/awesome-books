@@ -39,8 +39,8 @@
 -remove books
 -displays books dynamically from javascript.
 
+### Tech stack <a name="tech-stack"></a>
 <details>
-  <summary>Tech stack</summary><a name="tech-stack"></a>
   <ul>
     <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
@@ -191,7 +191,7 @@ If you like this project, kindly leave a comment below and share it with someone
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/)(LICENSE).
 
 
 
