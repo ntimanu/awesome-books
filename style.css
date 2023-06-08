@@ -1,5 +1,140 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.contact {
+  display: none;
+}
+
+.book-list {
+  display: none;
+}
+
+.add-book {
+  display: none;
+}
+
+#contact {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.contact:target {
+  display: block;
+}
+
+.book-list:target {
+  display: block;
+}
+
+.add-book:target {
+  display: block;
+}
+
+.logo a {
+  font-weight: bold;
+}
+
+span {
+  color: gray;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.list-item {
+  padding: 3px 10px;
+}
+
+.list-item a:hover {
+  color: rgb(230, 110, 12);
+}
+
+.list-item a:active {
+  color: rgb(230, 110, 12);
+}
+
+.list-item:nth-of-type(1) {
+  border-right: 2px solid #999;
+}
+
+.list-item:nth-of-type(2) {
+  border-right: 2px solid #999;
+}
+
+#date {
+  width: 95%;
+  margin: 3px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-container {
+  width: 160px;
+}
+
+.book-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid gray;
+}
+
+.book-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.book-container .book-element:nth-of-type(odd) {
+  background-color: darkgray;
+}
+
+.remove-btn {
+  padding: 2px 20px;
+}
+
+hr {
+  width: 30%;
+  margin: 50px auto 10px;
+}
+
+.btn {
+  padding: 2px 15px;
+}
+
+.contact-info {
+  display: grid;
+  place-items: center;
+  padding: 0 250px;
+}
+
+.contact-info li {
+  margin-bottom: 15px;
+}
+
+.footer {
+  border: 1px solid #999;
+  padding: 5px 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }

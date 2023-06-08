@@ -33,21 +33,20 @@
 **Awesome books** This is a simple single app built with html,css and javascript, it eneables users to add books and delete books of their choice.
 
 ## 🛠 Built With <a name="built-with"></a>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
-    <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
-    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 -add books
 -remove books
 -displays books dynamically from javascript.
+
+### Tech stack <a name="tech-stack"></a>
+The project is built using the following technologies:
+
+- **Frontend**:
+  <ul>
+    <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">Css</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,15 +74,6 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:<br>
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Othniel2471/awesome-books.git
-```
---->
 
 ### Install
  To Install this project, follow the steps below:
@@ -122,13 +112,11 @@ npm init -y
    ```
    _how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
 2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
+3. Run
    ```
    npx hint .
    ```
-5. Fix validation errors.
+4. Fix validation errors.
 
 ### [Stylelint](https://stylelint.io/)
 
@@ -160,18 +148,12 @@ To run the project:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author - OMAIDU OTHNIEL**
+👤 **Author - ADEBAYO ADEDOYIN**
 
 
 - GitHub: (https://github.com/shabiblac)
 - Twitter: (https://twitter.com/@shabi_blacc)
-- LinkedIn: ( https://www.linkedin.com/in/shabi-adebayo-019186187/)
-
-👤 **Author - MARVIN OTIENO**
-
-- GitHub: (https://github.com/ntimanu)
-- Twitter: (https://twitter.com/ntimanu)
-- LinkedIn: (https://www.linkedin.com/in/ntimanu-05ba83263/)  
+- LinkedIn: ( https://www.linkedin.com/in/shabi-adebayo-019186187/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +189,7 @@ If you like this project, kindly leave a comment below and share it with someone
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](LICENSE).
 
 
 
