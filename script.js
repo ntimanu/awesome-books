@@ -9,12 +9,12 @@ function updateData() {
 }
 
 const form = document.querySelector('form');
-function createBooks(arr) {
+function createBooks(input) {
   let book = '';
-  for (let i = 0; i < arr.length; i += 1) {
+  for (let i = 0; i < input.length; i += 1) {
     book += `
-              <p>${arr[i].title}</p>
-              <p>${arr[i].author}</p>
+              <p>${input[i].title}</p>
+              <p>${input[i].author}</p>
               <button onclick="removeBook(${i})" class="remove-btn">Remove</button>
           `;
   }
